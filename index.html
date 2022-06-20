@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ENEXEAR</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">WEEE, A Multi-Device and Multi-Sensor Dataset for Wearable Human Energy Expenditure Estimation</h1>
+        </div>
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-2">
+          <a class="btn btn-block btn-lg btn-primary" href="dataset.zip">Download</a>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Multi-Device and Multi-Sensor Estimation of Resting and Activity Energy Expenditure </h2>
+          <p class="lead mb-0">Human energy expenditure (EE) refers to the amount of energy an individual uses to maintain essential body
+functions (respiration, circulation, digestion) and as a result of physical activity. EE measurement can
+provide valuable insights into people’s health status and help promoting a more healthy and active lifestyle. The cost and practical limitations of gold-standard EE measurement methods, led to the exploration of unobtrusive wearable sensors to estimate EE in
+everyday activities. However, the majority of the existing data sets used to develop such methods are not publicly available or are
+highly limited in terms of the type and location of sensors, which makes it difficult for the community to build on existing
+work and validate new methods for EE modeling.
+          <br>
+          <br>
+         We present WEEE, a data set collected from 17 participants to enable multimodal modeling of EE with wearable sensors. </p>
+        </div>
+
+
+<!--          <div class="col-lg-6 order-lg-2 my-auto showcase-text" style="background: url('img/data_collection_setup.png') center center no-repeat; background-size: contain;">-->
+        <div class="col-lg-6 order-lg-2" style="background: url('img/protocol.png') center center no-repeat; background-size: contain;">
+
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Dataset Description</h2>
+          <p class="lead mb-0">WEEE is a rich
+data set containing five categories of data: 1) <em>sensor data</em> collected using 8 wearable devices placed on 4 body positions – head, ear,
+chest, and wrist –, 2) <em>respiratory gases</em> data collected with an indirect calorimeter, which serves as ground-truth information,
+3) <em>demographics</em> and <em>body composition data</em> measured using Qardio, 4) <em>activity type</em> – and their corresponding metabolic equivalent of task (MET)
+              from compendium of physical activities – and <em>intensity level</em>, and 5) answers to <em>questionnaires</em> related to physical activity level,
+diet, stress and sleep.</p>
+            
+        <br>
+          <h3>Sensor Data</h3>
+
+          <br>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Device</th>
+                <th scope="col">Position</th>
+                <th scope="col">Sensors</th>
+              </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                <td><a href="https://vo2master.com/">VO2 Master Analyzer Face Mask</a></td>
+                <td>Mouth</td>
+                <td>Oxygen consumption</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Fraction of oxygen in expired breath</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Air moved by the lungs</td>
+              </tr>
+                
+                <tr>
+                <td></td>
+                <td></td>
+                <td> Volume breathed in a breath</td>
+              </tr>
+                
+                <tr>
+                <td></td>
+                <td></td>
+                <td>Breaths per minute</td>
+              </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Humidity</td>
+              </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Temperature</td>
+              </tr>
+                
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Pressure</td>
+              </tr>
+                
+              <tr>
+                <td><a href="https://www.esense.io/">Nokia Bell Labs Earbuds</a></td>
+                <td>Ear</td>
+                <td>Accelerometer</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Gyroscope</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Photoplethysmography</td>
+              </tr>
+              <tr>
+                <td><a href="https://choosemuse.com/muse-s/">Muse S Headband</a></td>
+               <td>Head</td>
+                <td>Electroencephalography</td>
+              </tr>
+              <tr>
+                <td></td>
+                                  <td></td>
+                <td>Accelerometer</td>
+              </tr>
+              <tr>
+                <td></td>
+                                  <td></td>
+
+                <td>Gyroscope</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.zephyranywhere.com/media/download/bioharness3-user-manual.pdf">Zephyr BioHarness 3.0 Chest band</a></td>
+                <td>Chest</td>
+                <td>Electrocardiography</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Breathing sensor</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Accelerometer</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Posture sensor</td>
+              </tr>
+               <tr>
+                <td><a href="https://eu.wahoofitness.com/devices/heart-rate-monitors">Wahoo Tickr Chest-strap</a></td>
+                <td>Chest</td>
+                <td>Heart rate</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Breathing sensor</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.empatica.com/research/e4/">Empatica E4 Wristband</a></td>
+                <td>Wrist</td>
+                <td>Accelerometer</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Blood volume pulse</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Electrodermal activity</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Skin temperature</td>
+              </tr>
+                <tr>
+                <td><a href="https://www.apple.com/apple-watch-series-6/index.html">Apple Watch Series 6</a></td>
+                <td>Wrist</td>
+                <td>Heart Rate</td>
+              </tr>
+                   <tr>
+                <td><a href="https://www.fitbit.com/global/us/products/smartwatches/sense">Fitbit Sense Smartwatch</a></td>
+                <td>Wrist</td>
+                <td>Heart Rate</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-6 showcase-text">
+          <h2>Dataset Structure</h2>
+          <p class="lead mb-0">The structure of the data is as follows:</p>
+          <br>
+          <table class="table-dark">
+            <tbody>
+              <tr>
+                <td>[participant_id]/</td>
+              </tr>
+              <tr>
+                <td><font color="#343a40">━</font>┗ [device_id]/</td>
+              </tr>
+              <tr>
+                <td><font color="#343a40">━</font><font color="#343a40">━</font>┗ &lt;data files&gt;</td>
+              </tr>
+              <tr>
+                <td>Demographics.csv</td>
+              </tr>
+                <tr>
+                <td>Study_information.csv</td>
+              </tr>
+               <tr>
+                <td>Questionnaires</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <p class="lead mb-0">File Demographics.csv contains both demographics and body composition data.</p>
+
+          <br>
+<!--          <p class="lead mb-0">Each participant directory contains three subdirectories corresponding to each session. The format of data files in each session folder are described in <i>README.md</i> in the main folder. This file also describes the metadata and survey response files in the main folder.</p>-->
+        
+        <br>
+        <h3>Other Data</h3>
+
+        <br>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Data Type</th>
+                <th scope="col">Data </th>
+                <th scope="col">Tool</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Demographics  and Body Composition</td>
+                <td>Age</td>
+                    <td><a href="https://www.qardio.com/qardiobase-smart-scale-iphone-android/">Qardio Scale</a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Gender</td>
+                <td></td>
+
+              </tr>
+              <tr>
+                <td></td>
+                <td>Height</td>
+                <td></td>
+              </tr>
+                 <tr>
+                <td></td>
+                <td>Weight</td>
+                <td></td>
+
+              </tr>
+                 <tr>
+                <td></td>
+                <td>Fat (%)</td>
+                <td></td>
+
+              </tr>
+                 <tr>
+                <td></td>
+                <td>Musle (%)</td>
+                <td></td>
+
+              </tr>
+                 <tr>
+                <td></td>
+                <td>Water (%) </td>
+                <td></td>
+
+              </tr>
+            <tr>
+                <td></td>
+                <td>Bone (%) </td>
+                <td></td>
+
+              </tr>
+                <tr>
+                <td></td>
+                <td>BMI </td>
+                <td></td>
+
+              </tr>
+                 <tr>
+                <td>Activity</td>
+                <td>Type</td>
+                     <td>Pen-and-paper</td>
+              </tr>
+                             <tr>
+                <td></td>
+                <td>Intensity Level</td>
+                <td></td>
+              </tr>
+                 <tr>
+                <td>Questionnaires</td>
+                <td>Fitness</td>
+                     <td><a href="https://pubmed.ncbi.nlm.nih.gov/21441238/">International Fitness Scale (IFIS)</a> and <a href="http://eparmedx.com/wp-content/uploads/2021/01/ParQ-Plus-Jan-2021-Image.pdf">Physical Activity Readiness (PAR-Q)</a></td>
+              </tr>
+                <tr>
+                <td></td>
+                <td>Sleep</td>
+                <td><a href="http://www.goodmedicine.org.uk/files/assessment,%20pittsburgh%20psqi.pdf">Pittsburgh Sleep Quality Index (PSQI)</a>
+                    and <a href="https://www.med.upenn.edu/cbti/assets/user-content/documents/Stanford%20Sleepiness%20Scale.pdf">Stanford Sleepiness Scale (SSS)</a></td>
+              </tr>
+                <tr>
+                <td></td>
+                <td>Stress</td>
+                    <td><a href="https://das.nh.gov/wellness/docs/percieved%20stress%20scale.pdf">Perceived Stress Scale (PSS)</a></td>
+              </tr>
+                <tr>
+                <td></td>
+                <td>Diet</td>
+                    <td><a href="https://www.devonhealthandwellbeing.org.uk/wp-content/uploads/2012/10/BHF-How-healthy-is-your-diet-questionnaire1.pdf">How healthy is your diet?</a></td>
+              </tr>      
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+<!--  <section class="testimonials text-center bg-light">-->
+<!--
+    <div class="container">
+       <h2 class="mb-5">Citation</h2> 
+      <div class="row text-left">
+        <i>If you use our dataset in your work, please cite the paper below:</i><br><br>
+      </div>
+      <div class="row text-left">
+        <strong>TODO </strong>
+      </div>
+      <div class="row text-left">
+        TODO <br><i> TODO </i>
+      </div>
+      <div class="row">
+        <a href="#" target="_blank" class="btn btn-md btn-outline-secondary">Publication</a>
+      </div>
+    </div>
+-->
+<!--  </section>-->
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <!--ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="#">About</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul-->
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Nokia Bell Labs 2021. All Rights Reserved.</p>
+           <p class="text-muted small mb-4 mb-lg-0"> <a href="https://storyset.com/people">People illustrations by Storyset</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
